@@ -1,8 +1,8 @@
 <h1 align="center">IncChar</h1>
 
-<h5 align="center"> Small plugin to get the next letter in the roman alphabet</h5>
+<h5 align="center"> Small plugin to get the next character in the roman alphabet</h5>
 
-![incLetter](/media/incLetter.gif?raw=true 'incLetter')
+![incLetter](/media/incLetter.gif?raw=true 'incChar')
 
 
 ### INSTALL
@@ -12,7 +12,7 @@ yarn|npm installed globally.
 With vim-plug
 ```vim
 " post install (yarn install | npm install)
-Plug 'ricardogcolombo/incLetter.nvim', { 'do': 'npm --prefix ./rplugin/node/incletter.vim/ install' }
+Plug 'ricardogcolombo/incChar.nvim', { 'do': 'npm --prefix ./rplugin/node/incchar.nvim/ install' }
 ```
 
 ### USAGE
