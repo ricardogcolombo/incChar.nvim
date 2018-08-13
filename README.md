@@ -2,7 +2,7 @@
 
 <h5 align="center"> Small plugin to get the next character in the roman alphabet</h5>
 
-![incLetter](/media/incLetter.gif?raw=true 'incChar')
+![DecChar](/media/decchar.gif?raw=true 'DecChar')
 
 
 ### INSTALL
