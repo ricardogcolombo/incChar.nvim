@@ -92,7 +92,7 @@ module.exports = (plugin) => {
         nargs: "*",
     });
 
-    plugin.registerCommand("DecLetter", nextLetter, {
+    plugin.registerCommand("DecLetter", prevLetter, {
         sync: false,
         range: "",
         nargs: "*",
