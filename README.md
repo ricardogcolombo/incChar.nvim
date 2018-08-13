@@ -15,6 +15,8 @@ With vim-plug
 Plug 'ricardogcolombo/incChar.nvim', { 'do': 'npm --prefix ./rplugin/node/incchar.nvim/ install' }
 ```
 
+After run PlugInstall use `:UpdateRemotePlugins` and restart neovim
+
 ### USAGE
 Set the cursor on the letter to change and write:
 
