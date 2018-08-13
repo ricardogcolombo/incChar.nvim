@@ -1,4 +1,4 @@
-<h1 align="center">IncLetter</h1>
+<h1 align="center">IncChar</h1>
 
 <h5 align="center"> Small plugin to get the next letter in the roman alphabet</h5>
 
