@@ -39,7 +39,7 @@ module.exports = (plugin) => {
         });
     }
 
-    async function nextLetter(args, range) {
+    async function nextChar(args, range) {
         // a
         const currentPos = await plugin.nvim.window.cursor;
         const buffer = await plugin.nvim.buffer;
@@ -63,7 +63,7 @@ module.exports = (plugin) => {
         }
     }
 
-    async function prevLetter(args, range) {
+    async function prevChar(args, range) {
         // a
         const currentPos = await plugin.nvim.window.cursor;
         const buffer = await plugin.nvim.buffer;
@@ -86,13 +86,13 @@ module.exports = (plugin) => {
             });
         }
     }
-    plugin.registerCommand("IncLetter", nextLetter, {
+    plugin.registerCommand("IncChar", nextChar, {
         sync: false,
         range: "",
         nargs: "*",
     });
 
-    plugin.registerCommand("DecLetter", prevLetter, {
+    plugin.registerCommand("DecChar", prevChar, {
         sync: false,
         range: "",
         nargs: "*",
