@@ -18,6 +18,13 @@ Plug 'ricardogcolombo/incLetter.nvim', { 'do': 'npm --prefix ./rplugin/node/incl
 ### USAGE
 Set the cursor on the letter to change and write:
 
+Get Next Character
+
 ```vim
-:IncLetter
+:IncChar
+```
+
+Get Prev. Character
+```vim
+:DecChar
 ```
